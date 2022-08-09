@@ -22,14 +22,51 @@ h1{
     font-size:48px;
 }
 
+.navbar{
+   
+    overflow:hidden;
+}
 
+.links{
+     padding:8px 16px;
+    float:left;
+    width:auto;
+    border:none;
+    display:block;
+    outline:0;
+    width:100%;
+}
 
+.button:hover{
+    color:#000!important;
+    background-color:#ccc!important
+}
+.content{
+    max-width:980px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* img{
+    width="1000 or 500
+    height="500"
+
+} */
 .image{
-    max-width:100%;height:auto
+    max-width:100%;
+    height:auto;
+    margin-top:16p;
+
+}
+
+.padding-big{
+    padding:12px 24px
 }
 
 .img{
     vertical-align:middle
 }
 
-a{color:inherit}
+a{
+    color:inherit
+}
