@@ -1,0 +1,35 @@
+.header{
+    position: relative;
+    margin-left:auto;margin-right:auto;
+    text-align:center!important;
+}
+
+.header-padding{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:
+    translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    padding:12px 24px!important;
+    border:1px solid #ccc!important;
+    letter-spacing:4px;
+    color:#090909;
+    text-align:center!important;
+}
+
+h1{
+    font-size:48px;
+}
+
+
+
+.image{
+    max-width:100%;height:auto
+}
+
+.img{
+    vertical-align:middle
+}
+
+a{color:inherit}
