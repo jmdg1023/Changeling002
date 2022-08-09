@@ -58,15 +58,43 @@ h1{
     margin-top:16p;
 
 }
-
-.padding-big{
-    padding:12px 24px
+h3{
+    text-align:center!important;
 }
 
+.contact{
+    color: rgb(0, 0, 0);
+    margin-top: 16px;
+    padding:12px 24px;
+    padding-top:32px!important;
+    padding-bottom:32px!important;
+    text-align:center!important
+
+}
+.padding-big{
+    padding:12px 24px;
+}
+
+
 .img{
-    vertical-align:middle
+    vertical-align:middle;
 }
 
 a{
-    color:inherit
+    color:inherit;
 }
+
+.input{
+    padding:8px;
+    display:block;
+    border:none;
+    border-bottom:1px solid #ccc;
+    width:100%;
+    border:1px solid #ccc!important;
+}
+
+.section{
+    margin-top:16px!important;
+    margin-bottom:16px!important;
+}
+
