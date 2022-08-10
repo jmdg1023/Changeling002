@@ -27,6 +27,11 @@ h1{
 .navbar{
    
     overflow:hidden;
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    margin: 15px;
+    font-size: large;
 }
 
 .links{
@@ -39,9 +44,8 @@ h1{
     width:100%;
 }
 
-.button:hover{
-    color:#000!important;
-    background-color:#ccc!important
+.input:hover, button:hover {
+  box-shadow: 0 0 5px rgb(73, 70, 70);
 }
 .content{
     max-width:980px;
@@ -49,31 +53,31 @@ h1{
     margin-right:auto;
 }
 
-.content-image{
+/* .content-image{
     width: 400px;
     height: 400px;
     position: relative;
 
-} 
+}  */
 .image{
     max-width:100%;
     height:auto;
     margin-top:16p;
 
 }
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background-color: rgba(204, 204, 204, 0.235);
+  }
 h3{
     text-align:center!important;
+    color: #000;
 }
 
-.contact{
-    color: rgb(0, 0, 0);
-    margin-top: 16px;
-    padding:12px 24px;
-    padding-top:32px!important;
-    padding-bottom:32px!important;
-    text-align:center!important
 
-}
 .padding-big{
     padding:12px 24px;
 }
@@ -96,8 +100,52 @@ a{
     border:1px solid #ccc!important;
 }
 
-.section{
-    margin-top:16px!important;
-    margin-bottom:16px!important;
+
+body{
+    text-align: center;
 }
+
+form {
+    max-width: 800px;
+    display:inline-block;
+    border: 10px;
+    color: #000;
+  }
+
+button {
+    padding: 1% 2%;
+    color: #fff;
+    background-color: #000;
+    border: 5px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  footer{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    background-color:#000;
+    color: #fff;
+    margin: 100px;
+  }
+
+@media screen and (max-width: 992px) {
+    .image {
+      width: 50%;
+    }
+  }
+ @media screen and (max-width: 768px) {
+   .image {
+      width: 100%;
+    }
+  } 
+
+
+
+
+
+
+
+
 
