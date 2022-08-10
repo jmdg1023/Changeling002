@@ -28,11 +28,15 @@ h1{
    
     overflow:hidden;
     display: flex;
-    background-color: #000;
-    color: #fff;
-    margin: 15px;
+    color: #000;
+    margin: 50px ;
+    border: 1px solid #000;
     font-size: large;
 }
+
+/* .navbar:hover{
+    text-shadow: #302121;
+} */
 
 .links{
      padding:8px 16px;
@@ -51,25 +55,41 @@ h1{
     max-width:980px;
     margin-left:auto;
     margin-right:auto;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* .content-image{
-    width: 400px;
-    height: 400px;
-    position: relative;
 
-}  */
 .image{
     max-width:100%;
     height:auto;
     margin-top:16p;
 
 }
+.image-gal{
+    
+    width: 80%;
+    margin:100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-gap: 10px;
+
+}
+.image-gal img{
+    width: 100%;
+    cursor: pointer;
+}
+
+.image-gal img:hover{
+    /* transform: scale(0,8) rotate(10deg); */
+    border-radius: 20px;
+    box-shadow: 0 32px 75px;
+}
 /* Bottom left text */
 .bottom-left {
     position: absolute;
-    bottom: 8px;
-    left: 16px;
+    bottom: 18px;
+    left: 100px;
     background-color: rgba(204, 204, 204, 0.235);
   }
 h3{
@@ -103,14 +123,25 @@ a{
 
 body{
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 form {
     max-width: 800px;
-    display:inline-block;
+    display: block;
     border: 10px;
     color: #000;
+
+    
   }
+
+  #contact{
+    
+   margin-left: 25%;
+   margin-right: 20%;
+  }
+
 
 button {
     padding: 1% 2%;
@@ -119,13 +150,19 @@ button {
     border: 5px;
     outline: none;
     cursor: pointer;
+    font-size: larger;
+  }
+  button .back{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
   }
 
   footer{
     font-size: x-large;
     display: flex;
     justify-content: center;
-    background-color:#000;
+    background-color:rgba(0, 0, 0, 0.836);
     color: #fff;
     margin: 100px;
   }
@@ -140,10 +177,6 @@ button {
       width: 100%;
     }
   } 
-
-
-
-
 
 
 
