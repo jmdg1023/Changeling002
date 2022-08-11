@@ -30,7 +30,7 @@ Changeling - A word of play for 'Challenging'
 
 7. Contact form is located at the bottom of the page which asks for the following information -  Name, Email & Message. Shadow on text boxes has been applied and aligned to center.
 
-
+8. Subscribe form located beside contact form for clients who wants to be notified everytime I finish a project. 
  
  ##  Links 📌
 

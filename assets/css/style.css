@@ -32,6 +32,10 @@ h1{
     margin-left: 260px;
 }
 
+.about-me{
+    max-width: 800px;
+    margin-left: 350px;
+}
 
 .links{
     padding:8px 16px;
@@ -40,8 +44,7 @@ h1{
     display:block;
     width:100%;
     border: 1px #000 solid;
-    margin: 10px;
-    
+    margin: 10px; 
 }
 
 .input:hover, button:hover {
@@ -72,6 +75,23 @@ h1{
     color: rgb(84, 80, 70);
 }
 
+  /* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(162, 158, 158, 0.854);
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+  }
+
 h3{
     text-align:center!important;
     color: #000;
@@ -87,7 +107,7 @@ a{
 }
 
 .input{
-    padding:8px;
+    padding:5px;
     display:block;
     border:none;
     border-bottom:1px solid #ccc;
@@ -107,18 +127,11 @@ form {
     padding: 10px;
     border: 2px solid black;
     color: #000; 
-    margin-right: 150px;
-
+    margin-right: 200px;
+    
   }
-/* label{
-    margin left: 100px;
-  } */
 
 
-.about-me{
-    max-width: 800px;
-    margin-left: 350px;
-}
 .contact{
     display: flex;
    margin-left: 18%;
@@ -161,19 +174,3 @@ footer{
   } 
 
 
-  /* Container holding the image and the text */
-.container {
-    position: relative;
-  }
-  
-  /* Bottom right text */
-  .text-block {
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-    background-color: rgba(162, 158, 158, 0.854);
-    color: black;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 30px;
-  }
