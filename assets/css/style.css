@@ -93,6 +93,7 @@ a{
     border-bottom:1px solid #ccc;
     width:97%;
     border:1px solid #ccc!important;
+    text-align: left;
 }
 
 body{
@@ -103,16 +104,25 @@ body{
 form {
   
     display: block;
-    padding: 20px;
+    padding: 10px;
     border: 2px solid black;
     color: #000; 
+    margin-right: 150px;
 
   }
+/* label{
+    margin left: 100px;
+  } */
 
-#contact{
-    
-   margin-left: 25%;
-   margin-right: 20%;
+
+.about-me{
+    max-width: 800px;
+    margin-left: 350px;
+}
+.contact{
+    display: flex;
+   margin-left: 18%;
+   text-align: left;
   }
 
 
@@ -151,13 +161,6 @@ footer{
   } 
 
 
-/* Bottom left text */
-.bottom-left {
-    position: absolute;
-    bottom: 18px;
-    left: 100px;
-    background-color: rgba(204, 204, 204, 0.235);
-  }
   /* Container holding the image and the text */
 .container {
     position: relative;
@@ -166,11 +169,11 @@ footer{
   /* Bottom right text */
   .text-block {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 10px;
+    right: 10px;
     background-color: rgba(162, 158, 158, 0.854);
     color: black;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 30px;
   }
