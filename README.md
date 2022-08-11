@@ -26,9 +26,16 @@ Changeling - A word of play for 'Challenging'
 * PORTFOLIO - links at the portfolio content in the body of html.
 * CONTACT- links to the bottom part of the index page where the contact form is located.
 
-6. Hovering on any image in the portfolio area will show a box shadow  and a border radius of 20%. When an image is clicked it brings you to another page where the whole gallery of a certain project sits. A back button which links back to HOME or the index.html page is available at the bottom center. 
+6. Hovering on any image in the portfolio area will show a box shadow  and a border radius of 50px. When an image is clicked it brings you to another page where the whole gallery of a certain project sits. A back button which links back to HOME or the index.html page is available at the bottom center. 
 
 7. Contact form is located at the bottom of the page which asks for the following information -  Name, Email & Message. Shadow on text boxes has been applied and aligned to center.
+
+ 
+ ## GitHub Repo link
+
+ https://github.com/jmdg1023/Changeling002
+
+ ## Live Link
 
  
 
