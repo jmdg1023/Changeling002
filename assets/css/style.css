@@ -29,12 +29,16 @@ h1{
     font-size: large;
     font-weight: bold;
     max-width:980px;
-    margin-left: 260px;
+    margin-left: 200px;
+    margin:100px auto 50px;
+
 }
 
 .about-me{
-    max-width: 800px;
-    margin-left: 350px;
+    
+    max-width:980px;
+    font-size: 20px;
+    margin:100px auto 50px;
 }
 
 .links{
@@ -116,6 +120,7 @@ a{
     text-align: left;
 }
 
+
 body{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -123,19 +128,23 @@ body{
 
 form {
   
-    display: block;
+    display: inline-block;
     padding: 10px;
     border: 2px solid black;
     color: #000; 
-    margin-right: 200px;
+    margin:100px auto 50px;
+    text-align: left;
     
   }
-
+.subscribe{
+  border: 1px black solid;
+  font-size: 24px;
+}
 
 .contact{
-    display: flex;
+   display: block;
    margin-left: 18%;
-   text-align: left;
+   margin:100px auto 50px;
   }
 
 

@@ -9,7 +9,7 @@
 
 <!-- Header -->
 <header class="header" style="max-width:1500px">
-  <img class="image" src="./assets/image/me1.jpg" alt="Janine Avatar" width="1200" height="200">
+  <img class="image" src="./assets/image/me.jpg" alt="Janine Avatar" width="1200" height="200">
   <div class="header-padding">
     <h1>JANINE MICHELLE DE GUZMAN-POLICARPIO</h1>
     <h5>PORTFOLIO</h5>
@@ -21,7 +21,8 @@
   <div class="navbar">
     <a href="#" class="links">HOME</a>  
     <a href="#portfolio" class="links">PORTFOLIOS</a>
-    <a href="#contact" class="links">CONTACT ME</a>
+    <a href="#contact" class="links">ABOUT ME</a>
+    <a href="#aboutme" class="links">CONTACT ME</a>
   </div>
 
 
@@ -91,9 +92,9 @@
   </div>
 
 <!-- About Me -->
-<div class="about-me">
-  <h1>About Me</h1>
-<p>
+<div class="about-me" id="aboutme">
+  <h2>About Me</h2>
+<p style="text-align: justify;">
   Nullam consequat leo vitae vulputate rhoncus. Mauris at congue lacus. Mauris metus tellus, pulvinar at nisl quis, 
   facilisis efficitur tellus. Vestibulum venenatis, orci nec tincidunt gravida, urna eros convallis justo, imperdiet 
   porta arcu leo sit amet lorem. Mauris efficitur vitae justo sollicitudin bibendum. Donec at nisl egestas, elementum 
@@ -108,7 +109,7 @@
   <!-- Contact -->
   
     <div class="contact" id="contact">
-    <form>
+    <form >
       <h3>I'd love to hear from you! Leave a message below and I will get in touch with you shortly.</h3>
       <h3>CONTACT ME 📱</h3>
       <p>
@@ -128,19 +129,23 @@
     
       <button type="submit">Send</button>
     </form>
+ 
     <form>
-      <h3>Get updates on all my latest work!</h3>
-      <h3>SUBSCRIBE 📨</h3>
-      
+      <h3>Subscribe to our newsletters and <br>
+        get notified on all my latest work!</h3>
+      <h3 class="subscribe">SUBSCRIBE 📨</h3><br>
+      <p>
+        <label>Name:</label>
+        <input class="input" type="text" required name="Name">
+      </p>
       <p>
         <label>Email</label>
         <input class="input" type="text" required name="Email">
       </p>
-      
-    
+
     
       <button type="submit">Subscribe!</button>
-    </form>
+    </form> 
   </div>
   
   <br>
