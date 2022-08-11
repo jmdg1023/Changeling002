@@ -91,7 +91,7 @@ a{
     display:block;
     border:none;
     border-bottom:1px solid #ccc;
-    width:100%;
+    width:97%;
     border:1px solid #ccc!important;
 }
 
@@ -101,7 +101,7 @@ body{
 }
 
 form {
-    max-width: 800px;
+  
     display: block;
     padding: 20px;
     border: 2px solid black;
@@ -157,4 +157,20 @@ footer{
     bottom: 18px;
     left: 100px;
     background-color: rgba(204, 204, 204, 0.235);
+  }
+  /* Container holding the image and the text */
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(162, 158, 158, 0.854);
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
   }
