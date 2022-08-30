@@ -4,6 +4,16 @@ Changeling - A word of play for 'Challenging'
 
 002 - Natural number following 001 (The previous and first challenge in this course) 
 
+##  Links 📌
+
+* GitHub Repository link https://github.com/jmdg1023/Changeling002
+
+* Site is live at https://jmdg1023.github.io/Changeling002/
+
+
+## Learning Resources
+* https://www.w3schools.com/
+* https://www.youtube.com/watch?v=sHG3Sf6XN9g&t=23s 
 
 ## What this Portfolio Website does 💡💡💡
 
@@ -32,13 +42,6 @@ Changeling - A word of play for 'Challenging'
 
 8. Subscribe form located beside contact form for clients who wants to be notified everytime I finish a project. 
  
- ##  Links 📌
-
-* GitHub Repository link https://github.com/jmdg1023/Changeling002
-
-* Site is live at https://jmdg1023.github.io/Changeling002/
-
  
-
 
 
